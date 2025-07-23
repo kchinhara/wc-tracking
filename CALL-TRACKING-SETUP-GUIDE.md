@@ -155,6 +155,23 @@ This guide will help you set up call tracking for your Google Ads campaigns driv
 - Check business hours settings
 - Ensure tracking numbers are active
 
+## Phase 6: Set Up Form Tracking
+
+### For Two-Step Unbounce Forms:
+1. Go to Tracking → Web Forms in WhatConverts
+2. Identify your form names (e.g., Step 1 Service Details, Step 2 Contact Details)
+3. **Delete Step 1 form** to prevent incomplete leads
+4. Keep only Step 2 form active
+
+### Test Form Tracking:
+```
+# Test URL for form submission
+https://yourdomain.com/?gclid=test&utm_source=google&utm_medium=cpc&utm_campaign=form-test&utm_keyword=form-test&wc_clear=true
+```
+
+1. Submit only Step 1 → Should NOT create a lead
+2. Submit both steps → Should create a lead with full attribution
+
 ## Next Steps
 
 1. **Monitor Performance**:
@@ -163,7 +180,7 @@ This guide will help you set up call tracking for your Google Ads campaigns driv
    - Identify top-performing keywords
 
 2. **Set Up Integrations**:
-   - Connect Google Ads for conversion import
+   - Connect Google Ads for conversion import ✓
    - Set up lead notifications
    - Configure CRM integration
 

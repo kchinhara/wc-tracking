@@ -1,13 +1,14 @@
-# WhatConverts Call Tracking Project
+# WhatConverts Call & Form Tracking Project
 
 ## Project Overview
-This project contains documentation and setup guides for implementing WhatConverts call tracking for Google Ads campaigns driving traffic to Unbounce landing pages.
+This project contains documentation and setup guides for implementing WhatConverts call and form tracking for Google Ads campaigns driving traffic to Unbounce landing pages.
 
 ## Current Setup Status
 - ✅ WhatConverts account configured
 - ✅ Dynamic number pool active (4 tracking numbers)
 - ✅ Unbounce integration completed
 - ✅ Google Ads conversion import configured
+- ✅ Form tracking configured (Step 2 only for qualified leads)
 
 ## Key Configuration Details
 
@@ -24,6 +25,11 @@ This project contains documentation and setup guides for implementing WhatConver
 - **Attribution**: Last Click, 90-day lookback
 - **Value**: No conversion value set
 
+### Form Tracking Configuration
+- **Two-step Unbounce forms**: Only Step 2 (contact details) is tracked
+- **Prevents false conversions**: Step 1 only submissions don't count as leads
+- **Qualified leads only**: Must have phone or email to be tracked
+
 ### Testing URLs
 Replace `your-domain.com` with actual Unbounce domain:
 
@@ -31,7 +37,7 @@ Replace `your-domain.com` with actual Unbounce domain:
 # Basic number swap test
 https://your-domain.com/?wc_clear=true
 
-# Full Google Ads test
+# Full Google Ads test (calls and forms)
 https://your-domain.com/?gclid=test&utm_source=google&utm_medium=cpc&utm_campaign=test-campaign&utm_keyword=test-keyword&wc_clear=true
 ```
 
@@ -40,6 +46,7 @@ https://your-domain.com/?gclid=test&utm_source=google&utm_medium=cpc&utm_campaig
 2. Campaign/keyword data is captured but may not display in Lead Manager columns
 3. View detailed lead data by clicking "View Lead" for each call
 4. All lead types report to Google Ads as single conversion action
+5. **Form tracking**: Delete Step 1 forms from WhatConverts to track only qualified leads
 
 ## Support Resources
 - WhatConverts Support: support@whatconverts.com
@@ -50,3 +57,6 @@ https://your-domain.com/?gclid=test&utm_source=google&utm_medium=cpc&utm_campaig
 - `CALL-TRACKING-QUICK-CHECKLIST.md` - Quick reference checklist
 - `VERIFY-YOUR-SETUP.md` - Troubleshooting guide
 - Research files with WhatConverts documentation URLs
+
+## Claude's Memories
+- 1
