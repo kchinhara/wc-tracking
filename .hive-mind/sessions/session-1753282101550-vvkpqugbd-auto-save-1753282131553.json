@@ -1,0 +1,81 @@
+{
+  "sessionId": "session-1753282101550-vvkpqugbd",
+  "checkpointId": "checkpoint-1753282131553-gozl0gvl0",
+  "checkpointName": "auto-save-1753282131553",
+  "timestamp": "2025-07-23T14:48:51.553Z",
+  "data": {
+    "timestamp": "2025-07-23T14:48:51.553Z",
+    "changeCount": 5,
+    "changesByType": {
+      "swarm_created": [
+        {
+          "type": "swarm_created",
+          "data": {
+            "swarmId": "swarm-1753282101545-midz495v6",
+            "swarmName": "hive-1753282101069",
+            "objective": "I need help with research on whatconverts because I need to set up conversion tracking for a new client, and I've never used whatconverts before. The goal of the research is to give me a clear, detailed step-by-step plan to follow in order to set up whatconverts tracking. I have a Google Ads campaign which is driving traffic to a landing page on that page of forms built in Unbounce. On those forms are phone numbers, so I will need to set up call tracking and form tracking. The Markdown files in the project are simply URLs to some of the pages in WhatConverts that I have looked over. I am a little bit confused, so that is why I am going down this route. Please stop me at any point to ask me questions so that we can get something that will actually help me.",
+            "workerCount": 8
+          },
+          "timestamp": "2025-07-23T14:48:21.550Z"
+        }
+      ],
+      "agent_activity": [
+        {
+          "type": "agent_activity",
+          "data": {
+            "agentId": "worker-swarm-1753282101545-midz495v6-0",
+            "activity": "spawned",
+            "data": {
+              "type": "researcher",
+              "name": "Researcher Worker 1"
+            }
+          },
+          "timestamp": "2025-07-23T14:48:21.555Z"
+        },
+        {
+          "type": "agent_activity",
+          "data": {
+            "agentId": "worker-swarm-1753282101545-midz495v6-1",
+            "activity": "spawned",
+            "data": {
+              "type": "coder",
+              "name": "Coder Worker 2"
+            }
+          },
+          "timestamp": "2025-07-23T14:48:21.558Z"
+        },
+        {
+          "type": "agent_activity",
+          "data": {
+            "agentId": "worker-swarm-1753282101545-midz495v6-2",
+            "activity": "spawned",
+            "data": {
+              "type": "analyst",
+              "name": "Analyst Worker 3"
+            }
+          },
+          "timestamp": "2025-07-23T14:48:21.560Z"
+        },
+        {
+          "type": "agent_activity",
+          "data": {
+            "agentId": "worker-swarm-1753282101545-midz495v6-3",
+            "activity": "spawned",
+            "data": {
+              "type": "tester",
+              "name": "Tester Worker 4"
+            }
+          },
+          "timestamp": "2025-07-23T14:48:21.561Z"
+        }
+      ]
+    },
+    "statistics": {
+      "tasksProcessed": 0,
+      "tasksCompleted": 0,
+      "memoryUpdates": 0,
+      "agentActivities": 4,
+      "consensusDecisions": 0
+    }
+  }
+}
